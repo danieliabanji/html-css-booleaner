@@ -1,0 +1,89 @@
+*{
+    box-sizing: content-box;
+    margin: auto;
+    
+}
+
+header{
+    background-image: url("../img/pattern.png");
+    background-color: rgb(26, 175, 224);
+    background-size: 20%;
+}
+main{
+    padding: 5px;
+}
+
+p{
+    margin: auto;
+}
+
+.logo{
+    width: 150px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.testo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.lista{
+    padding-bottom: 20px;
+}
+.gray{
+    color: gray;
+    padding-bottom: 20px;
+}
+
+#scrittore{
+    color:rgb(88, 208, 248)
+}
+.box-yellow{
+    background-color: yellow;
+}
+
+/* tabella */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: left;
+}
+.c25{
+    width: 25%;
+}
+.c50{
+    width: 50%;
+}
+thead{
+    background-color: rgb(42, 183, 230);
+    color: white;
+    margin: auto;
+    
+}
+.box-blue{
+    background-color: rgba(96, 187, 247, 0.753);
+}
+/* fine tabella */
+/* footer */
+h3{
+    color: gray;
+    padding-bottom: 15px;
+}
+.monitor{
+    color: white;
+    background-image: url(../img/monitor.jpg);
+    padding-top: 5px;
+    padding-bottom: 200px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+}
+.graph{
+    color: white;
+    background-image: url(../img/graph.jpg);
+    padding-top: 5px;
+    padding-bottom: 200px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+}
+
